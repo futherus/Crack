@@ -4,7 +4,7 @@ BIN	:= out
 
 
 build:	$(OBJ)
-	gcc $(OBJ) -o $(BIN) -no-pie
+	gcc $(OBJ) -o $(BIN) -no-pie -s
 
 run:
 	./out
